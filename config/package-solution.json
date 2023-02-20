@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sliderwebpart-client-side-solution",
+    "id": "7661bfa3-b59c-407d-a7b5-23966fe9b783",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "sliderwebpart description"
+      },
+      "longDescription": {
+        "default": "sliderwebpart description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "sliderwebpart Feature",
+        "description": "The feature that activates elements of the sliderwebpart solution.",
+        "id": "a8597e90-564e-4bba-ba38-10a140ddda78",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/sliderwebpart.sppkg"
+  }
+}
